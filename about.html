@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <style> 
+        
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D1D2E8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #78A8EB;
+}
+
+.active {
+  background-color: #6DB6E8;
+}
+        
+        
+        
+        
+        .container-fluid {
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+        
+        
+        .bg-1,.bg-2,.bg-3 {
+            background-color: #78A8EB;
+                color: #ffffff;
+        
+        }
+        
+        h1{
+            font-family:"spaceMono-Bold";
+        font-size: 60px;
+        text-align: center;
+            text-shadow: 2px 2px 4px #4DB7E8;
+        }
+        
+        h2{
+            font-family:"spaceMono-Bold";
+        font-size: 30px;
+        text-align: center;
+            text-shadow: 2px 2px 4px #4DB7E8;
+        }
+        
+        h3,h4{
+            font-family: "Roboto-Regular";
+            font-size: 20px;
+            text-align: center
+        }
+        
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:50%
+        }
+        p {
+            font-size: 18px;
+            text-align: center
+        }
+        
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h2 {
+  color: #fff;
+  font-family: "spacemono-bold";
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid Blue; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: skyblue}
+}
+        
+    </style>
+    
+</head>
+<body>
+
+
+    <ul>
+  <li><a href="home.html">Home</a></li>     
+  <li><a class="active" href="About.html">About Me</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+    
+    
+    
+    <div class="container-fluid bg-1 text-center">
+                                             
+
+     <h1>Meet Michelle Quinde</h1>
+        
+    <div class="typewriter">
+  <h2>The pain of creation,The scolding of this era</h2>
+</div>
+        
+<img src="images/artboard%201.png" 
+     
+     class="img-circle">
+    
+
+        
+<h3>Current student at La Guardia Community college <br>
+        Part  of the New Media Technology Program 
+        <br>
+        Lover of Astrology and Japanese Minimalism<br> 
+        I go by various names online but call me michelle.<br>
+        Born on December 10 1995</h3>      
+</div>
+    
+   <div class="container-fluid bg-2 text-center">
+  <h4>Programs I use</h4>
+  <p>
+   -Adobe Suite<br>
+      -Blender<br>
+      -Unity<br>
+      -Brackets
+       </p>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+          <h3>Photo of me</h3>
+           <br>
+           <p>
+           </p>
+        <img src="images/self..jpg">
+        </div>
+</body>
+</html>
